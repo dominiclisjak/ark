@@ -1,5 +1,5 @@
 {
-  "name": "@ark-ui/react",
+  "name": "@ark-ui/react-es6",
   "version": "0.15.1",
   "description": "A collection of unstyled, accessible UI components for React, utilizing state machines for seamless interaction.",
   "keywords": [],
