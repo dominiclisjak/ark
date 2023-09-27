@@ -1,4 +1,4 @@
-import { ark } from '@ark-ui/react'
+import { ark } from '@ark-ui/react-es6'
 import type { ComponentPropsWithoutRef } from 'react'
 import { styled } from 'styled-system/jsx'
 import { table, type TableVariantProps } from 'styled-system/recipes'

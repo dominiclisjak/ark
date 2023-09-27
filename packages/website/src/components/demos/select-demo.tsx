@@ -1,4 +1,4 @@
-import { Portal } from '@ark-ui/react'
+import { Portal } from '@ark-ui/react-es6'
 import { CheckIcon, ChevronsUpDownIcon } from 'lucide-react'
 import {
   Select,

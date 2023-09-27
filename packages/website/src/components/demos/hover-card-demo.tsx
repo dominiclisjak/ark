@@ -1,4 +1,4 @@
-import { Portal } from '@ark-ui/react'
+import { Portal } from '@ark-ui/react-es6'
 import { MapPin } from 'lucide-react'
 import { HStack, Stack, styled } from 'styled-system/jsx'
 import { Avatar, AvatarFallback, AvatarImage } from '~/components/ui/avatar'

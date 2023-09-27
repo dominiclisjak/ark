@@ -17,7 +17,7 @@
     "document": "concurrently 'pnpm:document:*'",
     "document:types": "turbo run typedocs",
     "document:stories": "turbo run storydocs",
-    "react": "pnpm --filter=@ark-ui/react",
+    "react": "pnpm --filter=@ark-ui/react-es6",
     "solid": "pnpm --filter=@ark-ui/solid",
     "vue": "pnpm --filter=@ark-ui/vue",
     "anatomy": "pnpm --filter=@ark-ui/anatomy",

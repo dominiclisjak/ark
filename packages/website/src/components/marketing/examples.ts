@@ -6,7 +6,7 @@ export const react = `import {
   SliderRange,
   SliderThumb,
   SliderTrack,
-} from '@ark-ui/react'
+} from '@ark-ui/react-es6'
 import { useState } from 'react'
   
 export const MySlider = () => {

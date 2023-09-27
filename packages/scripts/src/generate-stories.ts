@@ -78,7 +78,7 @@ const main = async () => {
             /import\s+\{([^\}]+)\}\s+from\s+'\.\/'/g,
             `import {$1} from '@ark-ui/${framework}'`,
           )
-          .replace(/@zag-js\/react/g, '@ark-ui/react')
+          .replace(/@zag-js\/react/g, '@ark-ui/react-es6')
 
         if (!importText.includes('.css') && !importText.includes('storybook')) {
           imports += importText + '\n'
