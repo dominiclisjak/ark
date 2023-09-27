@@ -1,4 +1,4 @@
-import { Portal } from '@ark-ui/react-es6'
+import { Portal } from '@dominiclisjak/react'
 import { X } from 'lucide-react'
 import { Box, Stack } from 'styled-system/jsx'
 import { Button } from '~/components/ui/button'

@@ -1,11 +1,11 @@
-import * as Ark from '@ark-ui/react-es6/src/accordion'
+import * as Ark from '@dominiclisjak/react/src/accordion'
 import { styled } from 'styled-system/jsx'
 import { accordion, type AccordionVariantProps } from 'styled-system/recipes'
 import { createStyleContext } from '~/lib/create-style-context'
 
 const { withProvider, withContext } = createStyleContext(accordion)
 
-export * from '@ark-ui/react-es6/src/accordion'
+export * from '@dominiclisjak/react/src/accordion'
 export type AccordionProps = Ark.AccordionProps & AccordionVariantProps
 
 const AccordionRoot = withProvider(styled(Ark.Accordion.Root), 'root')

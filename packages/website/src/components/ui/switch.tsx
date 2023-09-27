@@ -1,11 +1,11 @@
-import * as Ark from '@ark-ui/react-es6/src/switch'
+import * as Ark from '@dominiclisjak/react/src/switch'
 import { styled } from 'styled-system/jsx'
 import { switchRecipe, type SwitchRecipeVariantProps } from 'styled-system/recipes'
 import { createStyleContext } from '~/lib/create-style-context'
 
 const { withProvider, withContext } = createStyleContext(switchRecipe)
 
-export * from '@ark-ui/react-es6/src/switch'
+export * from '@dominiclisjak/react/src/switch'
 export type SwitchProps = Ark.SwitchProps & SwitchRecipeVariantProps
 
 const SwitchRoot = withProvider(styled(Ark.Switch.Root), 'root')

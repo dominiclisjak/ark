@@ -1,4 +1,4 @@
-import { Portal } from '@ark-ui/react-es6'
+import { Portal } from '@dominiclisjak/react'
 import type { CollectionEntry } from 'astro:content'
 import { AsteriskIcon, HelpCircle, MinusIcon } from 'lucide-react'
 import { HStack, Stack } from 'styled-system/jsx'

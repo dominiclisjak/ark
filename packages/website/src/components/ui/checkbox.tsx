@@ -1,11 +1,11 @@
-import * as Ark from '@ark-ui/react-es6/src/checkbox'
+import * as Ark from '@dominiclisjak/react/src/checkbox'
 import { styled } from 'styled-system/jsx'
 import { checkbox, type CheckboxVariantProps } from 'styled-system/recipes'
 import { createStyleContext } from '~/lib/create-style-context'
 
 const { withProvider, withContext } = createStyleContext(checkbox)
 
-export * from '@ark-ui/react-es6/src/checkbox'
+export * from '@dominiclisjak/react/src/checkbox'
 export type CheckboxProps = Ark.CheckboxProps & CheckboxVariantProps
 
 const CheckboxRoot = withProvider(styled(Ark.Checkbox.Root), 'root')

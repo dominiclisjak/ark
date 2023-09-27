@@ -1,4 +1,4 @@
-import { Portal, SelectItemIndicator, SelectItemText } from '@ark-ui/react-es6'
+import { Portal, SelectItemIndicator, SelectItemText } from '@dominiclisjak/react'
 import { match } from 'ts-pattern'
 import {
   Select,

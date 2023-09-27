@@ -1,11 +1,11 @@
-import * as Ark from '@ark-ui/react-es6/src/color-picker'
+import * as Ark from '@dominiclisjak/react/src/color-picker'
 import { styled } from 'styled-system/jsx'
 import { colorPicker, type ColorPickerVariantProps } from 'styled-system/recipes'
 import { createStyleContext } from '~/lib/create-style-context'
 
 const { withProvider, withContext } = createStyleContext(colorPicker)
 
-export * from '@ark-ui/react-es6/src/color-picker'
+export * from '@dominiclisjak/react/src/color-picker'
 export type ColorPickerProps = Ark.ColorPickerProps & ColorPickerVariantProps
 
 const ColorPickerRoot = withProvider(styled(Ark.ColorPicker.Root))

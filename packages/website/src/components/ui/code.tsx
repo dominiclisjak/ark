@@ -1,4 +1,4 @@
-import { ark } from '@ark-ui/react-es6/src'
+import { ark } from '@dominiclisjak/react/src'
 import type { ComponentPropsWithoutRef } from 'react'
 import { styled } from 'styled-system/jsx'
 import { code, type CodeVariantProps } from 'styled-system/recipes'

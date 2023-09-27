@@ -1,6 +1,6 @@
-# @ark-ui/react-es6
+# @dominiclisjak/react
 
-`@ark-ui/react-es6` is an open-source UI component library designed to make building high-quality, accessible web applications easier. The library focuses on providing low-level UI components with an emphasis on accessibility, customization, and developer experience.
+`@dominiclisjak/react` is an open-source UI component library designed to make building high-quality, accessible web applications easier. The library focuses on providing low-level UI components with an emphasis on accessibility, customization, and developer experience.
 
 ## Key Features
 
@@ -12,7 +12,7 @@
 
 ## Available Components
 
-At the moment, `@ark-ui/react-es6`offers the following components:
+At the moment, `@dominiclisjak/react`offers the following components:
 
 - [Accordion](https://ark-ui.com/docs/react/components/accordion)
 - [Avatar](https://ark-ui.com/docs/react/components/avatar)
@@ -45,21 +45,21 @@ At the moment, `@ark-ui/react-es6`offers the following components:
 
 ## Installation
 
-To install `@ark-ui/react-es6`, run the following command:
+To install `@dominiclisjak/react`, run the following command:
 
 ```bash
-npm install @ark-ui/react-es6
+npm install @dominiclisjak/react
 ```
 
 or with yarn:
 
 ```bash
-yarn add @ark-ui/react-es6
+yarn add @dominiclisjak/react
 ```
 
 ## Usage
 
-To use a component from `@ark-ui/react-es6`, import it and include it in your application:
+To use a component from `@dominiclisjak/react`, import it and include it in your application:
 
 ```tsx
 import {
@@ -70,19 +70,14 @@ import {
   SliderRange,
   SliderThumb,
   SliderTrack,
-} from "@ark-ui/react-es6";
-import { useState } from "react";
+} from '@dominiclisjak/react'
+import { useState } from 'react'
 
 export const MySlider = () => {
-  const [value, setValue] = useState(30);
+  const [value, setValue] = useState(30)
 
   return (
-    <Slider
-      min={-50}
-      max={50}
-      value={value}
-      onChange={(e) => setValue(e.value)}
-    >
+    <Slider min={-50} max={50} value={value} onChange={(e) => setValue(e.value)}>
       <SliderLabel>Label</SliderLabel>
       <SliderOutput>{value}</SliderOutput>
       <SliderControl>
@@ -92,8 +87,8 @@ export const MySlider = () => {
         <SliderThumb />
       </SliderControl>
     </Slider>
-  );
-};
+  )
+}
 ```
 
 ## Documentation
@@ -102,7 +97,7 @@ For more detailed documentation and examples, please visit the [official documen
 
 ## Contribution
 
-We welcome contributions to `@ark-ui/react-es6`. Please read our [contributing guidelines](https://github.com/chakra-ui/ark/blob/main/CONTRIBUTING.md) for more information on how to contribute.
+We welcome contributions to `@dominiclisjak/react`. Please read our [contributing guidelines](https://github.com/chakra-ui/ark/blob/main/CONTRIBUTING.md) for more information on how to contribute.
 
 ## Licence
 

@@ -1,11 +1,11 @@
-import * as Ark from '@ark-ui/react-es6/src/slider'
+import * as Ark from '@dominiclisjak/react/src/slider'
 import { styled } from 'styled-system/jsx'
 import { slider, type SliderVariantProps } from 'styled-system/recipes'
 import { createStyleContext } from '~/lib/create-style-context'
 
 const { withProvider, withContext } = createStyleContext(slider)
 
-export * from '@ark-ui/react-es6/src/slider'
+export * from '@dominiclisjak/react/src/slider'
 export type SliderProps = Ark.SliderProps & SliderVariantProps
 
 const SliderRoot = withProvider(styled(Ark.Slider.Root), 'root')

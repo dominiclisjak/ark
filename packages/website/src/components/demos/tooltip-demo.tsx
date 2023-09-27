@@ -1,4 +1,4 @@
-import { Portal } from '@ark-ui/react-es6'
+import { Portal } from '@dominiclisjak/react'
 import {
   Tooltip,
   TooltipArrow,

@@ -28,7 +28,7 @@ description: All notable changes to this project will be documented in this file
 
 ```tsx
 // before
-import { accordionAnatomy } from '@ark-ui/react-es6'
+import { accordionAnatomy } from '@dominiclisjak/react'
 // after
 import { accordionAnatomy } from '@ark-ui/anatomy' // or
 import { anatomy } from '@ark-ui/anatomy/accordion'
@@ -168,7 +168,7 @@ import { anatomy } from '@ark-ui/anatomy/accordion'
 
 ### Added
 
-- Support for standalone component imports: Developers can now import individual components, such as `@ark-ui/react-es6/tabs` instead of the full `@ark-ui/react-es6` package. This is a significant feature for those working with bundlers that do not support tree-shaking. By allowing imports of individual components, we ensure a reduced bundle size when the full package import is not necessary.
+- Support for standalone component imports: Developers can now import individual components, such as `@dominiclisjak/react/tabs` instead of the full `@dominiclisjak/react` package. This is a significant feature for those working with bundlers that do not support tree-shaking. By allowing imports of individual components, we ensure a reduced bundle size when the full package import is not necessary.
 
 ## [0.7.0] - 2023-06-23
 
@@ -252,39 +252,39 @@ import { anatomy } from '@ark-ui/anatomy/accordion'
 - Add `Toast`
 - Add `Tooltip`
 
-[unreleased]: https://github.com/chakra-ui/ark/compare/@ark-ui/react-es6@0.15.1...HEAD
-[0.1.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.1.0
-[0.2.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.2.0
-[0.3.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.3.0
-[0.4.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.4.0
-[0.5.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.5.0
-[0.6.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.6.0
-[0.7.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.7.0
-[0.7.1]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.7.1
-[0.7.2]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.7.2
-[0.7.3]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.7.3
-[0.8.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.8.0
-[0.8.1]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.8.1
-[0.9.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.9.0
-[0.10.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.10.0
-[0.11.0-beta.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.11.0-beta.0
-[0.11.0-beta.1]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.11.0-beta.1
-[0.11.0-beta.2]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.11.0-beta.2
-[0.11.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.11.0
+[unreleased]: https://github.com/chakra-ui/ark/compare/@dominiclisjak/react@0.15.1...HEAD
+[0.1.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.1.0
+[0.2.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.2.0
+[0.3.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.3.0
+[0.4.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.4.0
+[0.5.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.5.0
+[0.6.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.6.0
+[0.7.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.7.0
+[0.7.1]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.7.1
+[0.7.2]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.7.2
+[0.7.3]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.7.3
+[0.8.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.8.0
+[0.8.1]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.8.1
+[0.9.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.9.0
+[0.10.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.10.0
+[0.11.0-beta.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.11.0-beta.0
+[0.11.0-beta.1]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.11.0-beta.1
+[0.11.0-beta.2]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.11.0-beta.2
+[0.11.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.11.0
 
 ```
 
 ```
 
-[0.12.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.12.0
-[0.13.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.13.0
-[0.13.1]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.13.1
-[0.14.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.14.0
-[0.15.0-beta.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.15.0-beta.0
-[0.15.0]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.15.0
+[0.12.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.12.0
+[0.13.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.13.0
+[0.13.1]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.13.1
+[0.14.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.14.0
+[0.15.0-beta.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.15.0-beta.0
+[0.15.0]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.15.0
 
 ```
 
 ```
 
-[0.15.1]: https://github.com/chakra-ui/ark/releases/tag/@ark-ui/react-es6@0.15.1
+[0.15.1]: https://github.com/chakra-ui/ark/releases/tag/@dominiclisjak/react@0.15.1

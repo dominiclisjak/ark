@@ -1,11 +1,11 @@
-import * as Ark from '@ark-ui/react-es6/src/editable'
+import * as Ark from '@dominiclisjak/react/src/editable'
 import { styled } from 'styled-system/jsx'
 import { editable, type EditableVariantProps } from 'styled-system/recipes'
 import { createStyleContext } from '~/lib/create-style-context'
 
 const { withProvider, withContext } = createStyleContext(editable)
 
-export * from '@ark-ui/react-es6/src/editable'
+export * from '@dominiclisjak/react/src/editable'
 export type EditableProps = Ark.EditableProps & EditableVariantProps
 
 const EditableRoot = withProvider(styled(Ark.Editable.Root), 'root')
